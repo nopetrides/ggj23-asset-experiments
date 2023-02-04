@@ -1,0 +1,6495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1002570977032152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4083208201882690}
+  m_Layer: 0
+  m_Name: LUpperDydel_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083208201882690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002570977032152}
+  m_LocalRotation: {x: -0.03166375, y: 0.0152691025, z: -0.0044018626, w: 0.99937224}
+  m_LocalPosition: {x: -0.000100947684, y: -0.00020700124, z: -0.15170822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4781557140184434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1025062477499290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4752863712304798}
+  - component: {fileID: 137043643711423472}
+  m_Layer: 0
+  m_Name: FeyeBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752863712304798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025062477499290}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4970228831536660}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137043643711423472
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025062477499290}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c37994e554cc4144be618752b995f61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: f06bc4c93a7f3bb499cbee3beb2a3728, type: 3}
+  m_Bones:
+  - {fileID: 4695275885732038}
+  - {fileID: 4145677702177346}
+  - {fileID: 4724660552876302}
+  - {fileID: 4730753869417636}
+  - {fileID: 4474859208050990}
+  - {fileID: 4964916016163740}
+  - {fileID: 4455074601683436}
+  - {fileID: 4449996899672846}
+  - {fileID: 4054824239920118}
+  - {fileID: 4517037110278786}
+  - {fileID: 4638180618935710}
+  - {fileID: 4343833437380904}
+  - {fileID: 4281946979706860}
+  - {fileID: 4737332167494882}
+  - {fileID: 4096213339522236}
+  - {fileID: 4487366693043224}
+  - {fileID: 4591415275106910}
+  - {fileID: 4247867355129400}
+  - {fileID: 4700333217845248}
+  - {fileID: 4764964679837340}
+  - {fileID: 4991998194038694}
+  - {fileID: 4830384480145986}
+  - {fileID: 4106860733426618}
+  - {fileID: 4756050785750438}
+  - {fileID: 4863345584473432}
+  - {fileID: 4348639193731354}
+  - {fileID: 4560348581828768}
+  - {fileID: 4559170032733078}
+  - {fileID: 4661875794058228}
+  - {fileID: 4863710075033194}
+  - {fileID: 4319042943215550}
+  - {fileID: 4600919112590632}
+  - {fileID: 4815186592290596}
+  - {fileID: 4215536632810510}
+  - {fileID: 4377292408864566}
+  - {fileID: 4999582148946906}
+  - {fileID: 4848933876699426}
+  - {fileID: 4227799494559724}
+  - {fileID: 4785447135812932}
+  - {fileID: 4680222305546276}
+  - {fileID: 4794574555937866}
+  - {fileID: 4770925829458148}
+  - {fileID: 4568907657967122}
+  - {fileID: 4926430432616186}
+  - {fileID: 4898467211015118}
+  - {fileID: 4746347376490886}
+  - {fileID: 4182657792083958}
+  - {fileID: 4739301394461740}
+  - {fileID: 4872837399321718}
+  - {fileID: 4033802183333090}
+  - {fileID: 4665618640953580}
+  - {fileID: 4807319773392704}
+  - {fileID: 4658914346103388}
+  - {fileID: 4681168316096690}
+  - {fileID: 4910284387575888}
+  - {fileID: 4846634710583798}
+  - {fileID: 4865542430166098}
+  - {fileID: 4668490115389122}
+  - {fileID: 4083813655366558}
+  - {fileID: 4689821342664992}
+  - {fileID: 4781557140184434}
+  - {fileID: 4083208201882690}
+  - {fileID: 4645044970664818}
+  - {fileID: 4212163173463406}
+  - {fileID: 4046099669720474}
+  - {fileID: 4327046673107100}
+  - {fileID: 4254091969826232}
+  - {fileID: 4358562706012538}
+  - {fileID: 4747520069613232}
+  - {fileID: 4367724189746550}
+  - {fileID: 4409657601983060}
+  - {fileID: 4748785869020006}
+  - {fileID: 4306098426678896}
+  - {fileID: 4544579635109090}
+  - {fileID: 4437900837894136}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4695275885732038}
+  m_AABB:
+    m_Center: {x: 0.0000166893, y: -0.5170111, z: -0.21449089}
+    m_Extent: {x: 3.4278822, y: 2.1545227, z: 1.335907}
+  m_DirtyAABB: 0
+--- !u!1 &1025281445203766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4236899149492902}
+  - component: {fileID: 137541926356731378}
+  m_Layer: 0
+  m_Name: Eye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4236899149492902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025281445203766}
+  m_LocalRotation: {x: -0.087155744, y: 0, z: -0, w: 0.9961947}
+  m_LocalPosition: {x: 4.7021826e-18, y: 2.5390184, z: 0.07679247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4970228831536660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137541926356731378
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025281445203766}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8c631e78bdc085744aec197f36cea143, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: f06bc4c93a7f3bb499cbee3beb2a3728, type: 3}
+  m_Bones:
+  - {fileID: 4695275885732038}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4695275885732038}
+  m_AABB:
+    m_Center: {x: 0, y: 0.020939827, z: 0.11327934}
+    m_Extent: {x: 0.8112889, y: 0.822063, z: 0.82139575}
+  m_DirtyAABB: 0
+--- !u!1 &1032742475382380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4999582148946906}
+  m_Layer: 0
+  m_Name: LLowBackDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4999582148946906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032742475382380}
+  m_LocalRotation: {x: -0.040689457, y: -0.14807431, z: -0.0068942606, w: 0.9881148}
+  m_LocalPosition: {x: 0.027538363, y: -0.0034034837, z: -0.1838087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4848933876699426}
+  m_Father: {fileID: 4377292408864566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1037833572407542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4327046673107100}
+  m_Layer: 0
+  m_Name: RUpperDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327046673107100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037833572407542}
+  m_LocalRotation: {x: -0.019236293, y: -0.0735942, z: -0.00086887076, w: 0.9971024}
+  m_LocalPosition: {x: 0.019984419, y: -0.015602211, z: -0.18086809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4254091969826232}
+  m_Father: {fileID: 4046099669720474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1038095809921370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4746347376490886}
+  - component: {fileID: 114003036450877540}
+  m_Layer: 0
+  m_Name: LMidDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4746347376490886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038095809921370}
+  m_LocalRotation: {x: -0.16542612, y: 0.81940776, z: 0.119448565, w: 0.53566515}
+  m_LocalPosition: {x: -0.85380477, y: -0.4257891, z: -0.041955102}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4182657792083958}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114003036450877540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038095809921370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4746347376490886}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4182657792083958}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4739301394461740}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4872837399321718}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1047694096859716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4668490115389122}
+  - component: {fileID: 114381925221690514}
+  m_Layer: 0
+  m_Name: LUpperDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668490115389122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047694096859716}
+  m_LocalRotation: {x: 0.3650177, y: 0.5785696, z: -0.38958272, w: 0.6166398}
+  m_LocalPosition: {x: -0.42813316, y: 0.8325723, z: 0.20069914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4083813655366558}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114381925221690514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047694096859716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4668490115389122}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4083813655366558}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4689821342664992}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4781557140184434}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4083208201882690}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1093316483083864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4815186592290596}
+  m_Layer: 0
+  m_Name: LFrontLowDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4815186592290596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093316483083864}
+  m_LocalRotation: {x: 0.026128128, y: -0.02973393, z: -0.003141751, w: 0.99921143}
+  m_LocalPosition: {x: 1.4210854e-16, y: -4.2632563e-16, z: -0.21484756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4600919112590632}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1160042541361790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4747520069613232}
+  m_Layer: 0
+  m_Name: LegR_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4747520069613232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160042541361790}
+  m_LocalRotation: {x: -0.025827002, y: 0.07307628, z: 0.002023035, w: 0.99698985}
+  m_LocalPosition: {x: -0.029737052, y: 0.0019114683, z: -0.80454314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4367724189746550}
+  m_Father: {fileID: 4358562706012538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1180857436207210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4377292408864566}
+  m_Layer: 0
+  m_Name: LLowBackDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4377292408864566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180857436207210}
+  m_LocalRotation: {x: 0.0150739355, y: 0.09628285, z: -0.006861998, w: 0.99521625}
+  m_LocalPosition: {x: -0.0016353801, y: 0.00026759805, z: -0.1779018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4999582148946906}
+  m_Father: {fileID: 4215536632810510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1209088596844234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4964916016163740}
+  m_Layer: 0
+  m_Name: RFingerPinky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4964916016163740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209088596844234}
+  m_LocalRotation: {x: -0.0042364076, y: 0.173113, z: -0.00004445332, w: 0.9848929}
+  m_LocalPosition: {x: -0.08680521, y: 0.013092952, z: -0.09791572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4455074601683436}
+  m_Father: {fileID: 4474859208050990}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1210622058889676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4737332167494882}
+  m_Layer: 0
+  m_Name: RFingerThumb_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4737332167494882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210622058889676}
+  m_LocalRotation: {x: -0.125493, y: 0.057118982, z: 0.0072373566, w: 0.9904224}
+  m_LocalPosition: {x: -0.010296375, y: -0.023067176, z: -0.088970795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4281946979706860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1215463502510632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4638180618935710}
+  m_Layer: 0
+  m_Name: RFingerMiddle_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4638180618935710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215463502510632}
+  m_LocalRotation: {x: -0.26745766, y: -0.028456934, z: -0.007902494, w: 0.9631169}
+  m_LocalPosition: {x: 0.010224556, y: -0.10421828, z: -0.17287254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4517037110278786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225512817732904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4807319773392704}
+  m_Layer: 0
+  m_Name: RUpBackDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4807319773392704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225512817732904}
+  m_LocalRotation: {x: 0.040205464, y: 0.031520452, z: 0.009218722, w: 0.99865156}
+  m_LocalPosition: {x: -0.0020723238, y: 0.0025936537, z: -0.16425419}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4658914346103388}
+  m_Father: {fileID: 4665618640953580}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228071703677838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4348639193731354}
+  m_Layer: 0
+  m_Name: LFingerThumb_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4348639193731354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228071703677838}
+  m_LocalRotation: {x: -0.12345566, y: 0.008288499, z: -0.0050369715, w: 0.9923027}
+  m_LocalPosition: {x: 0.007155872, y: -0.03131683, z: -0.15740992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4560348581828768}
+  m_Father: {fileID: 4863345584473432}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1232705287156458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4349275569029244}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4349275569029244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232705287156458}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4240956135061826}
+  m_Father: {fileID: 4970228831536660}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1235187955159628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4865542430166098}
+  m_Layer: 0
+  m_Name: LUpBackDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865542430166098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235187955159628}
+  m_LocalRotation: {x: -0.04091693, y: -0.039257124, z: -0.008226888, w: 0.9983572}
+  m_LocalPosition: {x: 0.005106959, y: -0.005411445, z: -0.18623768}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4846634710583798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1267705297750882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4560348581828768}
+  m_Layer: 0
+  m_Name: LFingerThumb_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560348581828768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267705297750882}
+  m_LocalRotation: {x: -0.125493, y: -0.057118982, z: -0.007237349, w: 0.9904224}
+  m_LocalPosition: {x: 0.010296375, y: -0.023067176, z: -0.088970795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4348639193731354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1272361393625188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4665618640953580}
+  m_Layer: 0
+  m_Name: RUpBackDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4665618640953580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272361393625188}
+  m_LocalRotation: {x: -0.07073425, y: -0.033610977, z: -0.0010610579, w: 0.9969282}
+  m_LocalPosition: {x: -0.0010554952, y: 0.0022274004, z: -0.16296488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4807319773392704}
+  m_Father: {fileID: 4033802183333090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1276395211236212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4700333217845248}
+  m_Layer: 0
+  m_Name: LFingerPinky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4700333217845248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276395211236212}
+  m_LocalRotation: {x: -0.00423641, y: -0.173113, z: 0.000044453252, w: 0.9848929}
+  m_LocalPosition: {x: 0.08680521, y: 0.013092952, z: -0.09791572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4764964679837340}
+  m_Father: {fileID: 4247867355129400}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1289269841728728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4343833437380904}
+  m_Layer: 0
+  m_Name: RFingerThumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4343833437380904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289269841728728}
+  m_LocalRotation: {x: -0.0040091085, y: -0.16496488, z: 0.0013697362, w: 0.9862904}
+  m_LocalPosition: {x: 0.08056499, y: 0.0038714432, z: -0.09588459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4281946979706860}
+  m_Father: {fileID: 4474859208050990}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1293198343426368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4970228831536660}
+  - component: {fileID: 95836892894842446}
+  - component: {fileID: 54857537260983468}
+  - component: {fileID: 136033828599881152}
+  - component: {fileID: 114087028392179246}
+  m_Layer: 0
+  m_Name: PR_FeyeStimulated
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4970228831536660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293198343426368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4236899149492902}
+  - {fileID: 4752863712304798}
+  - {fileID: 4349275569029244}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95836892894842446
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293198343426368}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: f06bc4c93a7f3bb499cbee3beb2a3728, type: 3}
+  m_Controller: {fileID: 9100000, guid: ee337a672240b054abc213560c07b4cd, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!54 &54857537260983468
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293198343426368}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0.1
+  m_AngularDrag: 0.1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &136033828599881152
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293198343426368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.7640028
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.146759, z: 0}
+--- !u!114 &114087028392179246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293198343426368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2693cae7c3417964f9baa7bb789c0ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationYAxis: 0
+  FittingSpeed: 4
+  RaycastHeightOffset: 0.5
+  RaycastCheckRange: 5
+  LookAheadRaycast: 0
+  AheadBlend: 0.5
+  YOffset: 0
+  GroundLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  RelativeLookUp: 1
+  RelativeLookUpBias: 0.25
+  BaseSpeed: 3
+  RotateToTargetSpeed: 5
+  SprintingSpeed: 10
+  AccelerationSpeed: 10
+  DecelerationSpeed: 10
+  JumpPower: 7
+  gravity: 15
+  MultiplySprintAnimation: 0
+--- !u!1 &1309755836669666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4756050785750438}
+  m_Layer: 0
+  m_Name: LFingerMiddle_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4756050785750438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309755836669666}
+  m_LocalRotation: {x: -0.26745766, y: 0.028456934, z: 0.007902494, w: 0.9631169}
+  m_LocalPosition: {x: -0.010224556, y: -0.10421828, z: -0.17287254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4106860733426618}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318258635659128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4227799494559724}
+  - component: {fileID: 114865732135192456}
+  m_Layer: 0
+  m_Name: RLowBackDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4227799494559724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318258635659128}
+  m_LocalRotation: {x: -0.04712446, y: -0.19971702, z: 0.008887156, w: 0.9786795}
+  m_LocalPosition: {x: 0.44248024, y: -0.14316067, z: -0.786356}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4785447135812932}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114865732135192456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318258635659128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4227799494559724}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4785447135812932}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4680222305546276}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4794574555937866}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1326627232301554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4695275885732038}
+  - component: {fileID: 114186798577812394}
+  m_Layer: 0
+  m_Name: Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4695275885732038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326627232301554}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.80412984, z: -0.036486845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4096213339522236}
+  - {fileID: 4145677702177346}
+  - {fileID: 4319042943215550}
+  - {fileID: 4215536632810510}
+  - {fileID: 4746347376490886}
+  - {fileID: 4681168316096690}
+  - {fileID: 4668490115389122}
+  - {fileID: 4559170032733078}
+  - {fileID: 4227799494559724}
+  - {fileID: 4770925829458148}
+  - {fileID: 4033802183333090}
+  - {fileID: 4645044970664818}
+  m_Father: {fileID: 4240956135061826}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114186798577812394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326627232301554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones: []
+  CompensationTransform: {fileID: 0}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 1
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.8
+  MusclesRapidity: 0.6
+  Damping: 0.3
+  Smoothing: 0.6
+  MildRotation: 0
+  MotionInfluence: 1
+  RotationSpaceMuscles: 0.75
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1
+  VibrateAmount: 0.1
+  VibrateSpeed: 4
+  VibrateRange: 1.4
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1326999970125738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4096213339522236}
+  - component: {fileID: 114873299238146698}
+  m_Layer: 0
+  m_Name: ArmL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4096213339522236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326999970125738}
+  m_LocalRotation: {x: -0.027810551, y: 0.7241867, z: 0.027900627, w: 0.6884779}
+  m_LocalPosition: {x: -0.7137386, y: 0.44792342, z: 0.08051185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4487366693043224}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114873299238146698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326999970125738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4096213339522236}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4487366693043224}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4591415275106910}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4247867355129400}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.75
+  Damping: 0.355
+  Smoothing: 0.4
+  MildRotation: 0
+  MotionInfluence: 0.35
+  RotationSpaceMuscles: 0.65
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.65
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.55
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.45588303
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24032772
+      value: 0.9735298
+      inSlope: 0.5763769
+      outSlope: 0.5763769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8737793
+      value: 0.41470718
+      inSlope: -1.5652462
+      outSlope: -1.5652462
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MusclesSimulationSpeed: 1
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1353566419092110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4106860733426618}
+  m_Layer: 0
+  m_Name: LFingerMiddle_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106860733426618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353566419092110}
+  m_LocalRotation: {x: 0.11855006, y: -0.07987955, z: 0.028763501, w: 0.9893118}
+  m_LocalPosition: {x: -0.0018093813, y: -0.050218835, z: -0.22835563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4756050785750438}
+  m_Father: {fileID: 4830384480145986}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1404756308723466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4544579635109090}
+  m_Layer: 0
+  m_Name: LegL_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4544579635109090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404756308723466}
+  m_LocalRotation: {x: -0.00029150708, y: 0.5131188, z: 0.00064247486, w: 0.8583173}
+  m_LocalPosition: {x: 0.16822311, y: 0.00050725817, z: -0.5929662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4437900837894136}
+  m_Father: {fileID: 4306098426678896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1422048767052678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215536632810510}
+  - component: {fileID: 114420011547249574}
+  m_Layer: 0
+  m_Name: LLowBackDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215536632810510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422048767052678}
+  m_LocalRotation: {x: -0.04712446, y: 0.19971702, z: -0.008887156, w: 0.9786795}
+  m_LocalPosition: {x: -0.436527, y: -0.1418129, z: -0.7724394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4377292408864566}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114420011547249574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422048767052678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4215536632810510}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4377292408864566}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4999582148946906}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4848933876699426}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 0
+  _editor_DrawTweaking: 1
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1429178174013496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4661875794058228}
+  m_Layer: 0
+  m_Name: RFrontLowDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661875794058228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429178174013496}
+  m_LocalRotation: {x: -0.031004108, y: -0.6444579, z: -0.025035398, w: 0.76360077}
+  m_LocalPosition: {x: 0.26192167, y: -0.015000803, z: -0.043332294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4863710075033194}
+  m_Father: {fileID: 4559170032733078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1461549099259484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4054824239920118}
+  m_Layer: 0
+  m_Name: RFingerMiddle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4054824239920118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461549099259484}
+  m_LocalRotation: {x: -0.0042054257, y: 0.04202004, z: 0.0005133488, w: 0.99910784}
+  m_LocalPosition: {x: 0.0002286568, y: 0.041900586, z: -0.12239816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4517037110278786}
+  m_Father: {fileID: 4474859208050990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1462464303805264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4794574555937866}
+  m_Layer: 0
+  m_Name: RLowBackDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4794574555937866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462464303805264}
+  m_LocalRotation: {x: -0.024921047, y: -0.07723202, z: -0.0019310757, w: 0.99669975}
+  m_LocalPosition: {x: 0.026653463, y: -0.00865753, z: -0.17095235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4680222305546276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1492093033752590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764964679837340}
+  m_Layer: 0
+  m_Name: LFingerPinky_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764964679837340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492093033752590}
+  m_LocalRotation: {x: -0.12178557, y: -0.08692888, z: -0.007684119, w: 0.9887126}
+  m_LocalPosition: {x: 0.0048789186, y: -0.007423821, z: -0.18304974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4991998194038694}
+  m_Father: {fileID: 4700333217845248}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1523460605768210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4910284387575888}
+  m_Layer: 0
+  m_Name: LUpBackDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4910284387575888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523460605768210}
+  m_LocalRotation: {x: -0.07073425, y: 0.033610977, z: 0.0010610579, w: 0.9969282}
+  m_LocalPosition: {x: -0.0019940005, y: -0.004207918, z: -0.20801197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4846634710583798}
+  m_Father: {fileID: 4681168316096690}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1525912400109826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4487366693043224}
+  m_Layer: 0
+  m_Name: ArmL_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4487366693043224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525912400109826}
+  m_LocalRotation: {x: 0.047622178, y: -0.04943383, z: -0.014980416, w: 0.997529}
+  m_LocalPosition: {x: -0.0035112586, y: 0.0000074415243, z: -0.29111943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4591415275106910}
+  m_Father: {fileID: 4096213339522236}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1533017629469830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4254091969826232}
+  m_Layer: 0
+  m_Name: RUpperDydel_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4254091969826232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533017629469830}
+  m_LocalRotation: {x: -0.03166375, y: -0.0152691025, z: 0.0044018626, w: 0.99937224}
+  m_LocalPosition: {x: -0.0010216251, y: 0.0057085375, z: -0.18167001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4327046673107100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1560829236208336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4247867355129400}
+  m_Layer: 0
+  m_Name: ArmL_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247867355129400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560829236208336}
+  m_LocalRotation: {x: -0.000016079399, y: 0.0033787915, z: -0.0031577486, w: 0.99998933}
+  m_LocalPosition: {x: -6.5725204e-16, y: -1.9895197e-15, z: -0.9840405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4830384480145986}
+  - {fileID: 4700333217845248}
+  - {fileID: 4863345584473432}
+  m_Father: {fileID: 4591415275106910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1591535361054554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4367724189746550}
+  m_Layer: 0
+  m_Name: LegR_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4367724189746550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591535361054554}
+  m_LocalRotation: {x: -0.00029151945, y: -0.5131188, z: -0.0006424755, w: 0.8583173}
+  m_LocalPosition: {x: -0.16822311, y: 0.00050725817, z: -0.5929662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4409657601983060}
+  m_Father: {fileID: 4747520069613232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1602983950656146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4033802183333090}
+  - component: {fileID: 114164850745211738}
+  m_Layer: 0
+  m_Name: RUpBackDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4033802183333090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602983950656146}
+  m_LocalRotation: {x: 0.32188967, y: -0.26885095, z: 0.21110862, w: 0.88291526}
+  m_LocalPosition: {x: 0.44507048, y: 0.59783363, z: -0.57270604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4665618640953580}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114164850745211738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602983950656146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4033802183333090}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4665618640953580}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4807319773392704}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4658914346103388}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1609365518384938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4645044970664818}
+  - component: {fileID: 114983158526308572}
+  m_Layer: 0
+  m_Name: RUpperDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4645044970664818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609365518384938}
+  m_LocalRotation: {x: 0.3650177, y: -0.5785696, z: 0.38958272, w: 0.6166398}
+  m_LocalPosition: {x: 0.4258399, y: 0.8337664, z: 0.16801229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4212163173463406}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114983158526308572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609365518384938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4645044970664818}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4212163173463406}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4046099669720474}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4327046673107100}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4254091969826232}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1612817891257402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4319042943215550}
+  - component: {fileID: 114404372877798246}
+  m_Layer: 0
+  m_Name: LFrontLowDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4319042943215550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612817891257402}
+  m_LocalRotation: {x: -0.13791825, y: 0.23306635, z: 0.46209803, w: 0.84446675}
+  m_LocalPosition: {x: -0.4277388, y: -0.74852234, z: 0.426867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4600919112590632}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114404372877798246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612817891257402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4319042943215550}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4600919112590632}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4815186592290596}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1616346869720082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4846634710583798}
+  m_Layer: 0
+  m_Name: LUpBackDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4846634710583798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616346869720082}
+  m_LocalRotation: {x: 0.040205464, y: -0.031520452, z: -0.009218722, w: 0.99865156}
+  m_LocalPosition: {x: 0.0004464533, y: 0.0025116492, z: -0.13820492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4865542430166098}
+  m_Father: {fileID: 4910284387575888}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1643749114511560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4449996899672846}
+  m_Layer: 0
+  m_Name: RFingerPinky_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4449996899672846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643749114511560}
+  m_LocalRotation: {x: -0.0274985, y: 0.019126616, z: 0.00843825, w: 0.99940324}
+  m_LocalPosition: {x: 3.5527136e-17, y: -4.2632563e-16, z: -0.14424323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4455074601683436}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1646876838856430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4306098426678896}
+  m_Layer: 0
+  m_Name: LegL_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4306098426678896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646876838856430}
+  m_LocalRotation: {x: -0.025827002, y: -0.07307628, z: -0.002023035, w: 0.99698985}
+  m_LocalPosition: {x: 0.029737052, y: 0.0019114683, z: -0.80454314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4544579635109090}
+  m_Father: {fileID: 4748785869020006}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1658922121540712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4437900837894136}
+  m_Layer: 0
+  m_Name: LegL_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437900837894136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658922121540712}
+  m_LocalRotation: {x: 1.127751e-17, y: 4.4408916e-16, z: -0.0000040695586, w: 1}
+  m_LocalPosition: {x: -7.105427e-16, y: 0, z: -0.3393585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4544579635109090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1659994294237876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4770925829458148}
+  - component: {fileID: 114919961800731552}
+  m_Layer: 0
+  m_Name: RMidDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4770925829458148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659994294237876}
+  m_LocalRotation: {x: -0.16542612, y: -0.81940776, z: -0.119448565, w: 0.53566515}
+  m_LocalPosition: {x: 0.8284079, y: -0.4144899, z: -0.053999837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4568907657967122}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114919961800731552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659994294237876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4770925829458148}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4568907657967122}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4926430432616186}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4898467211015118}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1661783768824758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4182657792083958}
+  m_Layer: 0
+  m_Name: LMidDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182657792083958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661783768824758}
+  m_LocalRotation: {x: -0.025877563, y: -0.23851056, z: -0.003999517, w: 0.9707868}
+  m_LocalPosition: {x: 0.06700226, y: -0.013281154, z: -0.14455839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4739301394461740}
+  m_Father: {fileID: 4746347376490886}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1664620961654622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4689821342664992}
+  m_Layer: 0
+  m_Name: LUpperDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4689821342664992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664620961654622}
+  m_LocalRotation: {x: 0.043883532, y: -0.056814488, z: 0.003322515, w: 0.99741435}
+  m_LocalPosition: {x: 0.0041411878, y: -0.0009613523, z: -0.14478216}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4781557140184434}
+  m_Father: {fileID: 4083813655366558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1678040589184058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4872837399321718}
+  m_Layer: 0
+  m_Name: LMidDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4872837399321718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678040589184058}
+  m_LocalRotation: {x: -0.056602105, y: -0.00092391344, z: -0.000052379444, w: 0.9983964}
+  m_LocalPosition: {x: -0.0036751723, y: -0.023749564, z: -0.17917942}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4739301394461740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1687587115503680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4681168316096690}
+  - component: {fileID: 114575664072965982}
+  m_Layer: 0
+  m_Name: LUpBackDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681168316096690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687587115503680}
+  m_LocalRotation: {x: 0.32188967, y: 0.26885095, z: -0.21110862, w: 0.88291526}
+  m_LocalPosition: {x: -0.44182777, y: 0.58092993, z: -0.5678274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4910284387575888}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114575664072965982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687587115503680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4681168316096690}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4910284387575888}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4846634710583798}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4865542430166098}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1695682096274776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4739301394461740}
+  m_Layer: 0
+  m_Name: LMidDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739301394461740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695682096274776}
+  m_LocalRotation: {x: 0.010648999, y: -0.027774997, z: -0.0006259312, w: 0.9995573}
+  m_LocalPosition: {x: -0.0018778946, y: 0.0060550557, z: -0.15449871}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4872837399321718}
+  m_Father: {fileID: 4182657792083958}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1717318644815972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4281946979706860}
+  m_Layer: 0
+  m_Name: RFingerThumb_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4281946979706860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717318644815972}
+  m_LocalRotation: {x: -0.12345566, y: -0.008288499, z: 0.0050369715, w: 0.9923027}
+  m_LocalPosition: {x: -0.007155872, y: -0.03131683, z: -0.15740992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4737332167494882}
+  m_Father: {fileID: 4343833437380904}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1720552017708456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4863345584473432}
+  m_Layer: 0
+  m_Name: LFingerThumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863345584473432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720552017708456}
+  m_LocalRotation: {x: -0.0040091057, y: 0.16496488, z: -0.0013697463, w: 0.9862904}
+  m_LocalPosition: {x: -0.08056499, y: 0.0038714472, z: -0.09588459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4348639193731354}
+  m_Father: {fileID: 4247867355129400}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1728532781029742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4591415275106910}
+  m_Layer: 0
+  m_Name: ArmL_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591415275106910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728532781029742}
+  m_LocalRotation: {x: -0.003957318, y: 0.04793224, z: 0.00018642683, w: 0.9988428}
+  m_LocalPosition: {x: -0.007372407, y: -0.0000689025, z: -0.8659694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4247867355129400}
+  m_Father: {fileID: 4487366693043224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1735372182366462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4748785869020006}
+  m_Layer: 0
+  m_Name: LegL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4748785869020006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735372182366462}
+  m_LocalRotation: {x: -0.53033584, y: 0.56284, z: 0.434774, w: 0.4614397}
+  m_LocalPosition: {x: -0.37465823, y: -0.16413975, z: -0.16534682}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4306098426678896}
+  m_Father: {fileID: 4240956135061826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1740043881278428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4724660552876302}
+  m_Layer: 0
+  m_Name: ArmR_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4724660552876302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740043881278428}
+  m_LocalRotation: {x: 0.047942255, y: 0.05441921, z: -0.10623964, w: 0.9916921}
+  m_LocalPosition: {x: 0.0035112586, y: 0.0000074415243, z: -0.29111943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4730753869417636}
+  m_Father: {fileID: 4145677702177346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1745828564901212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4991998194038694}
+  m_Layer: 0
+  m_Name: LFingerPinky_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4991998194038694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745828564901212}
+  m_LocalRotation: {x: -0.0274985, y: -0.019126616, z: -0.00843825, w: 0.99940324}
+  m_LocalPosition: {x: 3.5527135e-16, y: 2.842171e-16, z: -0.14424323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4764964679837340}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752092057917582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4785447135812932}
+  m_Layer: 0
+  m_Name: RLowBackDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785447135812932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752092057917582}
+  m_LocalRotation: {x: 0.0150739355, y: -0.09628285, z: 0.006861998, w: 0.99521625}
+  m_LocalPosition: {x: 0.0011806642, y: 0.00019319268, z: -0.17557165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4680222305546276}
+  m_Father: {fileID: 4227799494559724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1757210527163424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4517037110278786}
+  m_Layer: 0
+  m_Name: RFingerMiddle_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4517037110278786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757210527163424}
+  m_LocalRotation: {x: 0.11855006, y: 0.07987955, z: -0.028763501, w: 0.9893118}
+  m_LocalPosition: {x: 0.0018093813, y: -0.050218835, z: -0.22835563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4638180618935710}
+  m_Father: {fileID: 4054824239920118}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1784359371745780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4474859208050990}
+  m_Layer: 0
+  m_Name: ArmR_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474859208050990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784359371745780}
+  m_LocalRotation: {x: -0.000016077722, y: -0.0033787915, z: 0.0031577589, w: 0.99998933}
+  m_LocalPosition: {x: 6.3948843e-16, y: -3.5527137e-15, z: -0.9840405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4054824239920118}
+  - {fileID: 4964916016163740}
+  - {fileID: 4343833437380904}
+  m_Father: {fileID: 4730753869417636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1796236091644272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4848933876699426}
+  m_Layer: 0
+  m_Name: LLowBackDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848933876699426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796236091644272}
+  m_LocalRotation: {x: -0.024921048, y: 0.07723202, z: 0.0019310683, w: 0.99669975}
+  m_LocalPosition: {x: -0.026664857, y: -0.008661231, z: -0.17102544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4999582148946906}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1820693406758876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4212163173463406}
+  m_Layer: 0
+  m_Name: RUpperDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4212163173463406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820693406758876}
+  m_LocalRotation: {x: -0.026675293, y: -0.10298138, z: -0.0028571007, w: 0.99432147}
+  m_LocalPosition: {x: 0.030325105, y: -0.0033256162, z: -0.16355936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4046099669720474}
+  m_Father: {fileID: 4645044970664818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1835560766269044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4781557140184434}
+  m_Layer: 0
+  m_Name: LUpperDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781557140184434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835560766269044}
+  m_LocalRotation: {x: -0.019236293, y: 0.0735942, z: 0.00086887076, w: 0.9971024}
+  m_LocalPosition: {x: -0.021113662, y: -0.008559847, z: -0.16561466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4083208201882690}
+  m_Father: {fileID: 4689821342664992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1840483286028234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4409657601983060}
+  m_Layer: 0
+  m_Name: LegR_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4409657601983060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840483286028234}
+  m_LocalRotation: {x: -5.342928e-16, y: -4.9960253e-16, z: 0.0000040695586, w: 1}
+  m_LocalPosition: {x: 3.5527135e-16, y: -2.1316282e-16, z: -0.3393585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4367724189746550}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1844684126216122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4145677702177346}
+  - component: {fileID: 114724975096389314}
+  m_Layer: 0
+  m_Name: ArmR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4145677702177346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844684126216122}
+  m_LocalRotation: {x: -0.027810551, y: -0.7241867, z: -0.027900627, w: 0.6884779}
+  m_LocalPosition: {x: 0.7137386, y: 0.44792342, z: 0.08051185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4724660552876302}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114724975096389314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844684126216122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4145677702177346}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4724660552876302}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4730753869417636}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4474859208050990}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 1
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.75
+  Damping: 0.355
+  Smoothing: 0.4
+  MildRotation: 0
+  MotionInfluence: 0.35
+  RotationSpaceMuscles: 0.65
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.65
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.55
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.45588303
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24032772
+      value: 0.9735298
+      inSlope: 0.5763769
+      outSlope: 0.5763769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8737793
+      value: 0.41470718
+      inSlope: -1.5652462
+      outSlope: -1.5652462
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MusclesSimulationSpeed: 1
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1854677863068064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4358562706012538}
+  m_Layer: 0
+  m_Name: LegR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4358562706012538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854677863068064}
+  m_LocalRotation: {x: 0.53033584, y: 0.56284, z: 0.434774, w: -0.4614397}
+  m_LocalPosition: {x: 0.37465823, y: -0.16413975, z: -0.16534682}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4747520069613232}
+  m_Father: {fileID: 4240956135061826}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864976815149506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4046099669720474}
+  m_Layer: 0
+  m_Name: RUpperDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4046099669720474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864976815149506}
+  m_LocalRotation: {x: 0.043883532, y: 0.056814488, z: -0.003322515, w: 0.99741435}
+  m_LocalPosition: {x: 0.0005688136, y: -0.0045992136, z: -0.14327842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4327046673107100}
+  m_Father: {fileID: 4212163173463406}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1872352256574754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4926430432616186}
+  m_Layer: 0
+  m_Name: RMidDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4926430432616186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872352256574754}
+  m_LocalRotation: {x: 0.010648999, y: 0.027774997, z: 0.0006259312, w: 0.9995573}
+  m_LocalPosition: {x: 0.017159564, y: 0.0062908875, z: -0.16508316}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4898467211015118}
+  m_Father: {fileID: 4568907657967122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1873373196013188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4730753869417636}
+  m_Layer: 0
+  m_Name: ArmR_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730753869417636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873373196013188}
+  m_LocalRotation: {x: -0.003957317, y: -0.04793224, z: -0.00018642674, w: 0.9988428}
+  m_LocalPosition: {x: 0.007372407, y: -0.0000689025, z: -0.8659694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4474859208050990}
+  m_Father: {fileID: 4724660552876302}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1886852495113076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4830384480145986}
+  m_Layer: 0
+  m_Name: LFingerMiddle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830384480145986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886852495113076}
+  m_LocalRotation: {x: -0.004205426, y: -0.04202004, z: -0.0005133413, w: 0.99910784}
+  m_LocalPosition: {x: -0.0002286562, y: 0.04190059, z: -0.12239816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4106860733426618}
+  m_Father: {fileID: 4247867355129400}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1909631687303302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4455074601683436}
+  m_Layer: 0
+  m_Name: RFingerPinky_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455074601683436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909631687303302}
+  m_LocalRotation: {x: -0.12178557, y: 0.08692888, z: 0.007684119, w: 0.9887126}
+  m_LocalPosition: {x: -0.0048789186, y: -0.007423821, z: -0.18304974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4449996899672846}
+  m_Father: {fileID: 4964916016163740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1913967037660358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4863710075033194}
+  m_Layer: 0
+  m_Name: RFrontLowDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863710075033194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913967037660358}
+  m_LocalRotation: {x: 0.026128128, y: 0.02973393, z: 0.003141751, w: 0.99921143}
+  m_LocalPosition: {x: 0.0044294028, y: -0.0052176714, z: -0.27984464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4661875794058228}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1926630759211410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4559170032733078}
+  - component: {fileID: 114656627679608712}
+  m_Layer: 0
+  m_Name: RFrontLowDydel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559170032733078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926630759211410}
+  m_LocalRotation: {x: -0.13791825, y: -0.23306635, z: -0.46209803, w: 0.84446675}
+  m_LocalPosition: {x: 0.4238554, y: -0.7289045, z: 0.4204497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4661875794058228}
+  m_Father: {fileID: 4695275885732038}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114656627679608712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926630759211410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StimulatorAmount: 1
+  Bones:
+  - transform: {fileID: 4559170032733078}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4661875794058228}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  - transform: {fileID: 4863710075033194}
+    Evaluation: 0
+    initLocalPos: {x: 0, y: 0, z: 0}
+    initLocalRot: {x: 0, y: 0, z: 0, w: 0}
+    initLocalScale: {x: 0, y: 0, z: 0}
+    srcAnimatorLocPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorPosition: {x: 0, y: 0, z: 0}
+    srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
+    srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnableCollisions: 1
+    CollisionRadius: 0.1
+    CollisionHelperVector: {x: 0, y: 0, z: 0}
+    MomentDampen: 0
+    PosMul: 1
+    RotMul: 1
+    ScaleMul: 1
+    randomFloats: []
+    randomInts: 
+  CompensationTransform: {fileID: 4970228831536660}
+  AnimatePhysics: 0
+  UnscaledDelta: 0
+  HideWith: {fileID: 0}
+  FadeOutDistance: 0
+  DistanceFrom: {fileID: 0}
+  AutoHelperOffset: 1
+  HelperOffset: {x: 0, y: 0, z: 0}
+  _editor_Title: ' Bones Stimulator'
+  _editor_DrawSetup: 1
+  _editor_DrawTweaking: 0
+  _editor_DisplayedPreset: 0
+  _editor_DrawGizmos: 1
+  DrawGizmos: 1
+  _editor_SelCategory: 0
+  MovementMuscles: 0.75
+  MusclesRapidity: 0.7
+  Damping: 0.35
+  Smoothing: 0.45
+  MildRotation: 0
+  MotionInfluence: 0.375
+  RotationSpaceMuscles: 0
+  UseEulerRotation: 0
+  EnsureRotation: 0
+  RotationsRapidity: 0.7
+  RotationsDamping: 0.25
+  RotationsSwinginess: 0.6
+  MusclesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MusclesSimulationSpeed: 1.2
+  VibrateAmount: 0
+  VibrateSpeed: 6
+  VibrateRange: 2.5
+  VibrateAxis: {x: 1, y: 1, z: 1}
+  VibrateRotation: 1
+  UniRotation: 0
+  VibratePosition: 0
+  VibrateScale: 0
+  DetailedVibrate: 1
+  VibratePosBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateRotBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  VibrateScaleBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SqueezingAmount: 0
+  SqueezingSpeed: 15
+  SqueezingMultiply: 0.5
+  SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
+  UseCollisions: 0
+  MovementMusclesCollision: 1
+  CollidersScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CollidersScaleMul: 0.1
+  OffsetAllColliders: {x: 0, y: 0, z: 0}
+  DetailedCollision: 1
+  IncludedColliders: []
+  BlendXAxis: 1
+  BlendYAxis: 1
+  BlendZAxis: 1
+  LimitXAxisRotation: {x: -180, y: 180}
+  LimitYAxisRotation: {x: -180, y: 180}
+  LimitZAxisRotation: {x: -180, y: 180}
+  ElasticLimits: 0
+  ElasticLimitCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DampenOnLimits: 0
+--- !u!1 &1933094325663540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4680222305546276}
+  m_Layer: 0
+  m_Name: RLowBackDydel_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4680222305546276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933094325663540}
+  m_LocalRotation: {x: -0.040689457, y: 0.14807431, z: 0.0068942606, w: 0.9881148}
+  m_LocalPosition: {x: -0.019495822, y: -0.0011330002, z: -0.15757087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4794574555937866}
+  m_Father: {fileID: 4785447135812932}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1943593810858128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4083813655366558}
+  m_Layer: 0
+  m_Name: LUpperDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083813655366558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943593810858128}
+  m_LocalRotation: {x: -0.026675293, y: 0.10298138, z: 0.0028571007, w: 0.99432147}
+  m_LocalPosition: {x: -0.026822994, y: -0.0023685298, z: -0.21101312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4689821342664992}
+  m_Father: {fileID: 4668490115389122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1948232964433800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4658914346103388}
+  m_Layer: 0
+  m_Name: RUpBackDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4658914346103388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948232964433800}
+  m_LocalRotation: {x: -0.04091693, y: 0.039257124, z: 0.008226888, w: 0.9983572}
+  m_LocalPosition: {x: -0.004638527, y: -0.004915084, z: -0.18024863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4807319773392704}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1959456300102210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4600919112590632}
+  m_Layer: 0
+  m_Name: LFrontLowDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4600919112590632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959456300102210}
+  m_LocalRotation: {x: -0.031004108, y: 0.6444579, z: 0.025035398, w: 0.76360077}
+  m_LocalPosition: {x: -0.24959122, y: -0.0063173645, z: -0.03336169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4815186592290596}
+  m_Father: {fileID: 4319042943215550}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1965029637979144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4568907657967122}
+  m_Layer: 0
+  m_Name: RMidDydel_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4568907657967122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965029637979144}
+  m_LocalRotation: {x: -0.025877563, y: 0.23851056, z: 0.003999517, w: 0.9707868}
+  m_LocalPosition: {x: -0.0685937, y: -0.0027480396, z: -0.14770663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4926430432616186}
+  m_Father: {fileID: 4770925829458148}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1979973676037732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4898467211015118}
+  m_Layer: 0
+  m_Name: RMidDydel_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4898467211015118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979973676037732}
+  m_LocalRotation: {x: -0.056602105, y: 0.00092391344, z: 0.000052379444, w: 0.9983964}
+  m_LocalPosition: {x: 0.012523093, y: -0.013316612, z: -0.19997627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4926430432616186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1996265538031416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4240956135061826}
+  m_Layer: 0
+  m_Name: Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4240956135061826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996265538031416}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 1.7139487, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4748785869020006}
+  - {fileID: 4358562706012538}
+  - {fileID: 4695275885732038}
+  m_Father: {fileID: 4349275569029244}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
